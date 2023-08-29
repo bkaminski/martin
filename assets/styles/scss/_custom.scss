@@ -9,6 +9,7 @@ h6 {
 }
 p {
   font-family: "Raleway", sans-serif;
+  line-height: normal;
 }
 .footer {
   border-top: 1px solid black;
@@ -20,6 +21,13 @@ p {
   &:last-child {
     border-right: 0px solid white;
   }
+}
+.sub-header {
+    position: fixed;
+    min-height: 35px;
+    width: 100%;
+    background: #632523;
+
 }
 .sub-footer {
   min-height: 45px;

@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container pt-4 pb-5 text-white">
         <div class="row footer-row">
-            <div class="col-lg-3" style="border-right: 1px solid white;">
+            <div class="col-lg-3">
                 <img src="<?php echo get_home_url(); ?>/wp-content/uploads/Insignia.png" alt="Martin Construction Services Logo" width="200" />
             </div>
             <div class="col-lg-3">
