@@ -27,6 +27,7 @@ p {
   height: 35px;
   width: 100%;
   background: #632523;
+  z-index: 10;
 }
 .sub-footer {
   min-height: 45px;
@@ -48,6 +49,23 @@ p {
   min-height: 600px;
   background: #fff;
 }
+.home-info {
+  width: 100%;
+  min-height: 200px;
+  background: #fff;
+}
+.home-carousel {
+  min-height: 600px;
+	width: 100%;
+	background: #000;
+  padding-top: 187px;
+  @include breakpoint (md) {
+		padding-top: 100px;
+	}
+  @include breakpoint (lg) {
+		padding-top: 187px;
+	}
+}
 .permanent-lights {
   min-height: 600px;
   background: url("../../../../uploads/day-night.jpg-1024x683-1.png");
@@ -62,4 +80,15 @@ p {
 }
 svg {
   max-width: 100%;
+}
+.carousel-overlay:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.4;
 }
