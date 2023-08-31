@@ -17,9 +17,12 @@ p {
   min-height: 235px;
 }
 .footer-row .col-lg-3 {
-  border-right: 1px solid white;
+  border-right: 0px solid white;
   &:last-child {
     border-right: 0px solid white;
+  }
+  @include breakpoint(md) {
+    border-right: 1px solid white;
   }
 }
 .sub-header {
@@ -56,15 +59,14 @@ p {
 }
 .home-carousel {
   min-height: 600px;
-	width: 100%;
-	background: #000;
+  width: 100%;
   padding-top: 187px;
-  @include breakpoint (md) {
-		padding-top: 100px;
-	}
-  @include breakpoint (lg) {
-		padding-top: 187px;
-	}
+  @include breakpoint(md) {
+    padding-top: 100px;
+  }
+  @include breakpoint(lg) {
+    padding-top: 187px;
+  }
 }
 .permanent-lights {
   min-height: 600px;
@@ -91,4 +93,39 @@ svg {
   right: 0;
   background: black;
   opacity: 0.4;
+}
+#back-up {
+  position: fixed;
+  padding-top: 15px;
+  right: 20px;
+  bottom: 20px;
+  display: block;
+  display: none;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+}
+#back-up:hover {
+  background: rgba(0, 0, 0, 0.9);
+  padding-top: 5px;
+}
+#preLoader {
+  position: fixed;
+  z-index: 999999999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e9e9e9;
+  background-clip: padding-box;
 }

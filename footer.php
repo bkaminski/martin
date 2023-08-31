@@ -1,4 +1,5 @@
 <footer class="footer">
+    <a href="javascript:" id="back-up" class="text-center" title="Back to Top"><i class="fas fa-chevron-up fa-lg text-white"></i></a>
     <div class="container pt-4 pb-5 text-white">
         <div class="row footer-row">
             <div class="col-lg-3 pb-2">
