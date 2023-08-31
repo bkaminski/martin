@@ -1,3 +1,19 @@
 .nav-link {
-    margin-left: 1rem;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+.offcanvas {
+  background-color: rgba(255, 255, 255, 0.698);
+  backdrop-filter: blur(5px);
+  background-blend-mode: multiply;
+  transition: 0.3s ease-in-out;
+}
+.offcanvas.hiding,
+.offcanvas.show,
+.offcanvas.showing {
+  visibility: visible;
+  border-left: 2px solid #632523;
+}
+.text-red {
+  color: #632523;
 }

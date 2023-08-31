@@ -23,14 +23,28 @@ p {
   }
 }
 .sub-header {
-    position: fixed;
-    min-height: 35px;
-    width: 100%;
-    background: #632523;
-
+  position: fixed;
+  height: 35px;
+  width: 100%;
+  background: #632523;
 }
 .sub-footer {
   min-height: 45px;
   border-top: 2px solid #111;
-  background: #222222;
+  background: #222;
+}
+.promo-content {
+  width: 100%;
+  min-height: 220px;
+  background: #fff;
+}
+.home-galleries {
+  width: 100%;
+  min-height: 450px;
+  background: #632523;
+}
+.home-services {
+  width: 100%;
+  min-height: 450px;
+  background: #fff;
 }
