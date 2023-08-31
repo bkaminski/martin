@@ -45,6 +45,21 @@ p {
 }
 .home-services {
   width: 100%;
-  min-height: 450px;
+  min-height: 600px;
   background: #fff;
+}
+.permanent-lights {
+  min-height: 600px;
+  background: url("../../../../uploads/day-night.jpg-1024x683-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.options {
+  width: 100%;
+  min-height: 400px;
+  background: #632523;
+}
+svg {
+  max-width: 100%;
 }

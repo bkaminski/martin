@@ -30,7 +30,6 @@ add_filter('feed_links_show_comments_feed', '__return_false');
 // DISABLE EMOJI BLOAT
 function disable_wp_emoji()
 {
-
 	// REMOVE ALL ACTIONS USING EMOJI
 	remove_action('admin_print_styles', 'print_emoji_styles');
 	remove_action('wp_head', 'print_emoji_detection_script', 7);
@@ -55,7 +54,6 @@ function disable_emoji_tinymce($plugins)
 		return array();
 	}
 }
-
 //DESTROY COMMENTS
 add_action('admin_init', function () {
 	// Redirect any user trying to access comments page
@@ -77,7 +75,6 @@ add_action('admin_init', function () {
 		}
 	}
 });
-
 // Close comments on the front-end
 add_filter('comments_open', '__return_false', 20, 2);
 add_filter('pings_open', '__return_false', 20, 2);
@@ -89,28 +86,24 @@ add_filter('comments_array', '__return_empty_array', 10, 2);
 add_action('admin_menu', function () {
 	remove_menu_page('edit-comments.php');
 });
-
 // Remove comments links from admin bar
 add_action('init', function () {
 	if (is_admin_bar_showing()) {
 		remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
 	}
 });
-
 // REMOVE WP VERSION FROM CODE
-function dmi_remove_version()
+function bkc_remove_version()
 {
 	return '';
 }
-add_filter('the_generator', 'dmi_remove_version');
-
+add_filter('the_generator', 'bkc_remove_version');
 // DISABLE GUTENBERG CSS
 add_action('wp_print_styles', 'wps_deregister_styles', 100);
 function wps_deregister_styles()
 {
 	wp_dequeue_style('wp-block-library');
 }
-
 // REMOVE VERSION FROM JS AND CSS
 function vc_remove_wp_ver_css_js($src)
 {
@@ -120,7 +113,6 @@ function vc_remove_wp_ver_css_js($src)
 }
 add_filter('style_loader_src', 'vc_remove_wp_ver_css_js', 9999);
 add_filter('script_loader_src', 'vc_remove_wp_ver_css_js', 9999);
-
 //Wordpress Fluid Images Bootstrap 5
 function bootstrap_fluid_images($html)
 {

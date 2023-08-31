@@ -29,6 +29,8 @@
 <br>
 <br>
 <br>
+<?php get_template_part('parts/home', 'options'); ?>
+
 <?php get_template_part('parts/home', 'services'); ?>
 
 <?php get_template_part('parts/home', 'galleries'); ?>
