@@ -19,6 +19,22 @@ add_filter('upload_mimes', 'add_file_types_to_uploads');
 //TITLE TAG SUPPORT
 add_theme_support('title-tag');
 
+// add tag support to pages
+function tags_support_all() {
+    register_taxonomy_for_object_type('post_tag', 'page');
+}
+
+// ensure all tags are included in queries
+function tags_support_query($wp_query) {
+    if ($wp_query->get('tag')) $wp_query->set('post_type', 'any');
+}
+
+// tag hooks
+add_action('init', 'tags_support_all');
+add_action('pre_get_posts', 'tags_support_query');
+
+
+
 // REMOVE LINKS TO JSON API UNLESS BUILD HAS A USE FOR THIS
 remove_action('wp_head', 'rest_output_link_wp_head');
 remove_action('wp_head', 'wp_oembed_add_discovery_links');
