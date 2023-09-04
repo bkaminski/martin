@@ -21,6 +21,6 @@
   $(window).on("load", function () {
     setTimeout(function () {
       $("#preLoader").fadeOut("slow", function () {});
-    }, 500);
+    }, 0);
   });
 })(jQuery);

@@ -3,9 +3,11 @@
     <?php the_title('<h1 class="text-center text-white">', '</h1>'); ?>
 
 </section>
-<div class="container pt-5">
+<div class="pt-5">
     <?php if (is_page('reviews')) {
         echo get_template_part('parts/page', 'reviews');
+    } elseif (is_page('login')) {
+        echo get_template_part('parts/page', 'login');
     } else {
         echo get_template_part('parts/page', 'body');
     }; ?>

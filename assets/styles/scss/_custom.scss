@@ -84,10 +84,10 @@ svg {
   max-width: 100%;
 }
 .tag-container {
-	background-color: #ccc;
-	width: 100%;
-	min-height: 50px;
-	border-top: 4px solid #1c1d1d;
+  background-color: #ccc;
+  width: 100%;
+  min-height: 50px;
+  border-top: 4px solid #1c1d1d;
 }
 .carousel-overlay:after {
   content: "";
@@ -101,22 +101,54 @@ svg {
   opacity: 0.4;
 }
 .int-page-header {
-	background-color: #632523;
-	position: relative;
-	width: 100%;
-	min-height: 100px;
-	border-bottom: 4px solid #ffc107;
+  background-color: #632523;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  border-bottom: 4px solid #ffc107;
 }
 .int-page-body {
-	position: relative;
-	width: 100%;
-	min-height: 700px;
+  position: relative;
+  width: 100%;
+  min-height: 700px;
 }
 .tag-container {
-	background-color: #ccc;
-	width: 100%;
-	min-height: 50px;
-	border-top: 4px solid #ffc107;
+  background-color: #ccc;
+  width: 100%;
+  min-height: 50px;
+  border-top: 4px solid #ffc107;
+}
+.buildertrend-why {
+  width: 100%;
+  min-height: 100px;
+  background: #632523;
+}
+.buildertrend-access {
+  width: 100%;
+  min-height: 100px;
+  background: #632523;
+}
+.bt-bg-access {
+  position: relative;
+  background: url("../../../../uploads/btscreens.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  bottom: 0;
+  height: 473px;
+}
+.buildertrend-icons {
+  width: 100%;
+  min-height: 600px;
+}
+.bt-bg {
+  position: relative;
+  background: url("../../../../uploads/iphone-bt-1.png");
+  background-repeat: no-repeat;
+  background-size: unset;
+  background-position: center;
+  bottom: 0;
+  height: 473px;
 }
 #back-up {
   position: fixed;
@@ -160,6 +192,7 @@ svg {
 .ngg-imagebrowser.default-view .ngg-imagebrowser-nav {
   display: none;
 }
-.ngg-imagebrowser.default-view .pic, .ngg-imagebrowser.default-view .pic a {
+.ngg-imagebrowser.default-view .pic,
+.ngg-imagebrowser.default-view .pic a {
   border: 1.5px solid #ffc107 !important;
 }
