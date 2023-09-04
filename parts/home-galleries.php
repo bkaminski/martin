@@ -1,6 +1,6 @@
 <section class="home-galleries pt-5 pb-5">
     <h2 class="text-center text-white">Photo Galleries</h2>
-    <div class="container pb-5">
+    <div class="container pb-4">
         <div class="row text-white text-center">
             <div class="col-lg-4">
                 <?php echo do_shortcode('[ngg src="galleries" ids="6" display="basic_imagebrowser" thumbnail_width="200"]'); ?>
@@ -16,9 +16,9 @@
             </div>
         </div>
     </div>
-    <div class="container pt-5">
+    <div class="container pt-2">
         <div class="col text-center">
-            <a href="galleries" class="btn btn-lg btn-warning text-uppercase fw-bold p-3 text-white">See All Galleries</a>
+            <a href="galleries" class="btn btn-lg btn-warning text-uppercase p-3 text-white">See All Galleries</a>
         </div>
     </div>
 </section>

@@ -83,6 +83,12 @@ p {
 svg {
   max-width: 100%;
 }
+.tag-container {
+	background-color: #ccc;
+	width: 100%;
+	min-height: 50px;
+	border-top: 4px solid #1c1d1d;
+}
 .carousel-overlay:after {
   content: "";
   display: block;
@@ -93,6 +99,24 @@ svg {
   right: 0;
   background: black;
   opacity: 0.4;
+}
+.int-page-header {
+	background-color: #632523;
+	position: relative;
+	width: 100%;
+	min-height: 100px;
+	border-bottom: 4px solid #ffc107;
+}
+.int-page-body {
+	position: relative;
+	width: 100%;
+	min-height: 700px;
+}
+.tag-container {
+	background-color: #ccc;
+	width: 100%;
+	min-height: 50px;
+	border-top: 4px solid #ffc107;
 }
 #back-up {
   position: fixed;
