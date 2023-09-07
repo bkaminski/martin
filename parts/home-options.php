@@ -10,7 +10,7 @@
                         <p class="card-text">At Martin Construction Services we pride ourselves on being the number one home builder and major remodeler since 2007....</p>
                     </div>
                     <div class="card-footer text-center">
-                        <p class="pt-3"><a href="services/new-homes-and-major-renovations" class="btn btn-warning text-uppercase fw-bold text-white">Learn More</a></p>
+                        <p class="pt-3"><a href="services" class="btn btn-warning text-uppercase fw-bold text-white">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                         <p class="card-text">The kitchen and bathroom in your home are two of the most used rooms in your house. The kitchen is where everyone gathers...</p>
                     </div>
                     <div class="card-footer text-center">
-                    <p class="pt-3"><a href="services/bath-and-kitchen-renovations" class="btn btn-warning text-uppercase fw-bold text-white">Learn More</a></p>
+                    <p class="pt-3"><a href="services" class="btn btn-warning text-uppercase fw-bold text-white">Learn More</a></p>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                         <p class="card-text">A Permanent, Maintenance-Free Holiday lighting Solution. The lighting system is invisible by day, brilliant by night...</p>
                     </div>
                     <div class="card-footer text-center">
-                    <p class="pt-3"><a href="services/permanent-holiday-lighting" class="btn btn-warning text-uppercase fw-bold text-white">Learn More</a></p>
+                    <p class="pt-3"><a href="services" class="btn btn-warning text-uppercase fw-bold text-white">Learn More</a></p>
                     </div>
                 </div>
             </div>

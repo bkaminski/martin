@@ -13,7 +13,7 @@
             </div>
             <div class="col-lg-3 pb-2">
                 <h5 class="text-uppercase">Links</h5>
-                <p class="text-uppercase"><a class="text-white" href="services">Services</a></p>
+                <p class="text-uppercase"><a class="text-white" href="/martin-construction/services">Services</a></p>
             </div>
             <div class="col-lg-3">
                 <h5 class="text-uppercase">Social Media</h5>
@@ -34,5 +34,5 @@
 </footer>
 <?php wp_footer(); ?>
 </body>
-
+<!-- Yet Another Custom WordPress Theme by Benjamin Kaminski Consulting - https://benkaminski.com -->
 </html>

@@ -8,11 +8,11 @@
         function checkWidth() {
     
             if ($window.width() < 976) {
-                //do jQuery stuff
+                $('.carousel-caption').find('p').removeClass('h3 pb-5');
                 
             };
             if ($window.width() >= 976) {
-                //do jQuery stuff
+                $('.carousel-caption').find('p').addClass('h3 pb-5');
                 
             }
         }

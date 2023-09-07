@@ -8,6 +8,8 @@
         echo get_template_part('parts/page', 'reviews');
     } elseif (is_page('login')) {
         echo get_template_part('parts/page', 'login');
+    } elseif (is_page('contact')) {
+        echo get_template_part('parts/page', 'contact');
     } else {
         echo get_template_part('parts/page', 'body');
     }; ?>

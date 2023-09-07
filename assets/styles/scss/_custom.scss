@@ -68,6 +68,12 @@ p {
     padding-top: 187px;
   }
 }
+h1.home--heading {
+  font-size: 30px;
+  @include breakpoint(md) {
+    font-size: 2.5rem;
+  }
+}
 .permanent-lights {
   min-height: 600px;
   background: url("../../../../uploads/day-night.jpg-1024x683-1.png");

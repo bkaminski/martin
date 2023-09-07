@@ -89,6 +89,7 @@
                             <img src="<?php echo get_home_url(); ?>/wp-content/uploads/SITB_Button_Icon.png" alt="login to Buildertrend">
                         </a>
                     </p>
+                    <p class="mt-5 text-white"><em>To access your account please contact Buildertrend at 1-877-309-0368.</em></p>
                 </div>
                 <div class="col-md-6">
                     <div class="bt-bg-access mt-5"></div>

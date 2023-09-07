@@ -1,7 +1,7 @@
 <section class="home-carousel">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-caption" style="z-index: 9;">
-            <h1 class="fw-bold display-3 text-shadow">Full Service Construction Company, Specializing in Bath and Kitchen Design and Installation </h1>
+            <h1 class="fw-bold text-shadow home--heading">Full Service Construction Company Specializing in Bath, Kitchen Design, and Installation </h1>
             <p class="h3 pb-5 text-shadow">Serving Delaware, Eastern Shore Maryland and the surrounding areas</p>
             <p><a href="#" class="btn btn-lg btn-warning text-uppercase fw-bold p-3 text-white">Get a Free Estimate</a></p>
         </div>
