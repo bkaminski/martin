@@ -18,7 +18,7 @@
     </div>
     <div class="container pt-2">
         <div class="col text-center">
-            <a href="photo-gallery" class="btn btn-lg btn-warning text-uppercase p-3 text-white">See All Galleries</a>
+            <a href="photo-gallery" class="btn btn-lg btn-warning text-uppercase p-3">See All Galleries</a>
         </div>
     </div>
 </section>

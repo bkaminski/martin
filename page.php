@@ -10,6 +10,8 @@
         echo get_template_part('parts/page', 'login');
     } elseif (is_page('contact')) {
         echo get_template_part('parts/page', 'contact');
+    } elseif (is_page('process')) {
+        echo get_template_part('parts/page', 'process');
     } else {
         echo get_template_part('parts/page', 'body');
     }; ?>

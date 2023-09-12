@@ -134,6 +134,16 @@ svg {
   min-height: 100px;
   background: #632523;
 }
+.step-1 {
+  width: 100%;
+  min-height: 500px;
+  background: #fff;
+}
+.step-2 {
+  width: 100%;
+  min-height: 500px;
+  background: #632523;
+}
 .bt-bg-access {
   position: relative;
   background: url("../../../../uploads/btscreens.png");
@@ -142,6 +152,20 @@ svg {
   background-position: center;
   bottom: 0;
   height: 473px;
+}
+.short-underline-1 {
+  width: 100px;
+  border-bottom: 2px solid #632523;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.short-underline-2 {
+  width: 100px;
+  border-bottom: 2px solid #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 .buildertrend-icons {
   width: 100%;
@@ -201,4 +225,9 @@ svg {
 .ngg-imagebrowser.default-view .pic,
 .ngg-imagebrowser.default-view .pic a {
   border: 1.5px solid #ffc107 !important;
+}
+
+/*Fontawesome Helpers */
+.fa-circle {
+  color: #ffc107;
 }
