@@ -3,7 +3,7 @@
         <div class="carousel-caption" style="z-index: 9;">
             <h1 class="fw-bold text-shadow home--heading">Full Service Construction Company Specializing in Bath, Kitchen Design, and Installation </h1>
             <p class="h3 pb-5 text-shadow">Serving Delaware, Eastern Shore Maryland and the surrounding areas</p>
-            <p><a href="tel:1+3022000885" class="btn btn-lg btn-warning text-uppercase fw-bold p-3">Get a Free Estimate</a></p>
+            <p><a href="free-estimate" class="btn btn-lg btn-warning text-uppercase fw-bold p-3">Get a Free Estimate</a></p>
         </div>
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

@@ -31,4 +31,5 @@
             </div>
         </div>
     </div>
+    <?php echo get_template_part('parts/home', 'promo');?>
 </section>

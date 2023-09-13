@@ -8,10 +8,16 @@
         echo get_template_part('parts/page', 'reviews');
     } elseif (is_page('login')) {
         echo get_template_part('parts/page', 'login');
+    } elseif (is_page('about-us')) {
+        echo get_template_part('parts/page', 'body');
+        echo get_template_part('parts/home', 'promo');
     } elseif (is_page('contact')) {
         echo get_template_part('parts/page', 'contact');
+    } elseif (is_page('free-estimate')) {
+        echo get_template_part('parts/page', 'free-estimate');
     } elseif (is_page('process')) {
         echo get_template_part('parts/page', 'process');
+        echo get_template_part('parts/home', 'promo');
     } else {
         echo get_template_part('parts/page', 'body');
     }; ?>
