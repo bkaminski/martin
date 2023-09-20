@@ -1,7 +1,7 @@
 <section class="contact">
     <div class="container pb-5">
         <div class="text-center">
-            <p class="px-5">Please fill out the form below to recieve a free estimate/consultation from Martin Construction Services, LLC. We will contact you with a proposal based on the information you enter below. We look forward to servicing you. </p>
+            <p class="px-5">Please fill out the form below to receive a free estimate/consultation from Martin Construction Services, LLC. We will contact you with a proposal based on the information you enter below. We look forward to servicing you. </p>
         </div>
     </div>
     <div class="container">

@@ -11,7 +11,10 @@
     } elseif (is_page('about-us')) {
         echo get_template_part('parts/page', 'body');
         echo get_template_part('parts/home', 'promo');
-    } elseif (is_page('contact')) {
+    } elseif (is_page('services')) {
+        echo get_template_part('parts/page', 'services');
+        echo get_template_part('parts/home', 'promo');
+    }elseif (is_page('contact')) {
         echo get_template_part('parts/page', 'contact');
     } elseif (is_page('free-estimate')) {
         echo get_template_part('parts/page', 'free-estimate');

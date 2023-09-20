@@ -8,16 +8,16 @@
                 </svg>
             </div>
             <div class="col-lg-3 pb-2">
-                <h5 class="text-uppercase">Contact Info</h5>
+                <h4 class="text-uppercase h5">Contact Info</h4>
                 <p>Martin Construction Services LLC<br>340 West Chestnut Hill Road<br>Newark, Delaware 19713<br>Phone: 302.200.0885<br>Email: <a class="text-white" href="mailto:info@martincsllc.com">Info@Martincsllc.com</a></p>
             </div>
             <div class="col-lg-3 pb-2">
-                <h5 class="text-uppercase">Links</h5>
+                <h4 class="text-uppercase h5">Links</h4>
                 <p class="text-uppercase"><a class="text-white" href="/martin-construction/services">Services</a></p>
             </div>
             <div class="col-lg-3">
-                <h5 class="text-uppercase">Social Media</h5>
-                <p><a target="_blank" href="https://www.facebook.com/martinconstruction11"><i class="fab fa-facebook-square fa-3x text-white"></i></a> &nbsp; <a target="_blank" href="https://www.houzz.com/professionals/design-build-firms/martin-construction-services-llc-pfvwus-pf~1259896214"><i class="fab fa-houzz fa-3x text-white"></i></a></p>
+                <h4 class="text-uppercase h5">Social Media</h4>
+                <p><a target="_blank" href="https://www.facebook.com/martinconstruction11" aria-label="Follow us on Facebook!"><i class="fab fa-facebook-square fa-3x text-white"></i></a> &nbsp; <a target="_blank" href="https://www.houzz.com/professionals/design-build-firms/martin-construction-services-llc-pfvwus-pf~1259896214" aria-label="Learn more about us on Houzz"><i class="fab fa-houzz fa-3x text-white"></i></a> &nbsp; <a target="_blank" href="https://www.linkedin.com/company/martin-construction-services-llc" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin text-white fa-3x"></i></a></p>
             </div>
         </div>
     </div>

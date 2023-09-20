@@ -4,9 +4,9 @@
 		<div class="col mt-1">
 			<p class="text-white fw-bold h5 ms-3"><i class="fas fa-mobile-alt fa-lg fa-fw text-white"></i>&nbsp;<a class="text-white" href="tel:1+3022000885">302.200.0885</a>
 				<span class="float-end me-3">
-					<a target="_blank" href="https://www.facebook.com/martinconstruction11"><i class="fab fa-facebook-square text-white fa-lg"></i></a> &nbsp;
-					<a target="_blank" href="https://www.houzz.com/professionals/design-build-firms/martin-construction-services-llc-pfvwus-pf~1259896214"><i class="fab fa-houzz text-white fa-lg"></i></a> &nbsp;
-					<a href="mailto:info@martincsllc.com"><i class="fa fa-envelope text-white fa-lg"></i></a>
+					<a target="_blank" href="https://www.facebook.com/martinconstruction11" aria-label="Follow us on Facebook!"><i class="fab fa-facebook-square text-white fa-lg"></i></a> &nbsp;
+					<a target="_blank" href="https://www.houzz.com/professionals/design-build-firms/martin-construction-services-llc-pfvwus-pf~1259896214"aria-label="Learn more about us on Houzz"><i class="fab fa-houzz text-white fa-lg"></i></a> &nbsp; <a target="_blank" href="https://www.linkedin.com/company/martin-construction-services-llc" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin text-white fa-lg"></i></a> &nbsp;
+					<a href="mailto:info@martincsllc.com" aria-label="Send us a direct email message"><i class="fa fa-envelope text-white fa-lg"></i></a>
 				</span>
 			</p>
 		</div>
@@ -15,7 +15,7 @@
 <header class="d-none d-lg-block">
 	<nav class="navbar navbar-expand-lg fixed-top shadow p-3 mb-5 bg-white" style="margin-top: 2.2rem; background: #fff;">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
+			<a class="navbar-brand" href="<?php echo get_home_url(); ?>" aria-label="Martin Construction Services LLC - Return to Home Page">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" viewBox="0 0 2880 1442">
 					<defs>
 					</defs>
@@ -56,7 +56,7 @@
 <header class="d-block d-lg-none">
 	<nav class="navbar fixed-top shadow p-3 mb-5 bg-white" style="margin-top:2.2rem;background:#fff;">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
+			<a class="navbar-brand" href="<?php echo get_home_url(); ?>" aria-label="Martin Construction Services LLC - Return to Home Page">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" viewBox="0 0 2880 1442">
 					<defs>
 					</defs>
@@ -77,13 +77,13 @@
 				</svg>
 			</a>
 			<br>
-			<button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+			<button class="navbar-toggler rounded-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Mobile Menu">
 				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
 			</button>
 			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 				<div class="offcanvas-header">
 					<h5 class="offcanvas-title text-uppercase fw-bold" id="offcanvasNavbarLabel">Navigation</h5>
-					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close Mobile Menu"></button>
 				</div>
 				<div class="offcanvas-body">
 					<div class="text-center mb-4">

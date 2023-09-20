@@ -6,6 +6,9 @@ add_theme_support('post-thumbnails');
 // REMOVES SCRIPT AND STYLE TYPE ATTR
 add_theme_support('html5', ['script', 'style']);
 
+// ADD PAGE EXCERPT
+add_post_type_support( 'page', 'excerpt' );
+
 //ENABLE SVG SUPPORT
 function add_file_types_to_uploads($file_types)
 {
